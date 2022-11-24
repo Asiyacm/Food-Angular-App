@@ -7,6 +7,7 @@ import { UserLoginComponent } from './user-login/user-login.component';
 import { UserSignupComponent } from './user-signup/user-signup.component';
 import { JuiceComponent } from './juice/juice.component';
 import { MainCourseComponent } from './main-course/main-course.component';
+import { SaladsComponent } from './salads/salads.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MainCourseComponent } from './main-course/main-course.component';
     UserLoginComponent,
     UserSignupComponent,
     JuiceComponent,
-    MainCourseComponent
+    MainCourseComponent,
+    SaladsComponent
   ],
   imports: [
     BrowserModule,
