@@ -10,6 +10,7 @@ import { MainCourseComponent } from './main-course/main-course.component';
 import { SaladsComponent } from './salads/salads.component';
 import { StarterComponent } from './starter/starter.component';
 import { RouterModule, Routes } from '@angular/router';
+import { NavigationComponent } from './navigation/navigation.component';
 
 
 const myRoute: Routes=[
@@ -48,7 +49,8 @@ const myRoute: Routes=[
     JuiceComponent,
     MainCourseComponent,
     SaladsComponent,
-    StarterComponent
+    StarterComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
