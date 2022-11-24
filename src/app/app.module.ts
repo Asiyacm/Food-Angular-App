@@ -8,6 +8,7 @@ import { UserSignupComponent } from './user-signup/user-signup.component';
 import { JuiceComponent } from './juice/juice.component';
 import { MainCourseComponent } from './main-course/main-course.component';
 import { SaladsComponent } from './salads/salads.component';
+import { StarterComponent } from './starter/starter.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SaladsComponent } from './salads/salads.component';
     UserSignupComponent,
     JuiceComponent,
     MainCourseComponent,
-    SaladsComponent
+    SaladsComponent,
+    StarterComponent
   ],
   imports: [
     BrowserModule,
