@@ -9,6 +9,36 @@ import { JuiceComponent } from './juice/juice.component';
 import { MainCourseComponent } from './main-course/main-course.component';
 import { SaladsComponent } from './salads/salads.component';
 import { StarterComponent } from './starter/starter.component';
+import { RouterModule, Routes } from '@angular/router';
+
+
+const myRoute: Routes=[
+  {
+    path: "",
+    component:UserLoginComponent
+  },
+  {
+    path: "signup",
+    component:UserSignupComponent
+  },
+  {
+    path: "juice",
+    component:JuiceComponent
+  },
+  {
+    path: "main",
+    component:MainCourseComponent
+  },
+  {
+    path: "salads",
+    component:SaladsComponent
+  },
+  {
+    path: "starter",
+    component:StarterComponent
+  },
+
+]
 
 @NgModule({
   declarations: [
@@ -22,7 +52,8 @@ import { StarterComponent } from './starter/starter.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(myRoute)
   ],
   providers: [],
   bootstrap: [AppComponent]
